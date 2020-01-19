@@ -1,0 +1,19 @@
+.main-header {
+  // background-image: image-url('/images/umi.jpg');
+  font-family: 'Impact';
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  background: linear-gradient( #9941D8,#E4A972 );
+}
+.welcome {
+  font-size: 3rem;
+}
+.tottori {
+  font-size: 3rem;
+  color: #FF7C00;
+  background: -webkit-linear-gradient(top, #FFB76B 0%, #FFA73D 50%, #FF7C00 51%, #FF7F04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
