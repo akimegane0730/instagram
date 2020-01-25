@@ -1,4 +1,4 @@
 class PicturesController < ApplicationController
-  def indexp
+  def index
   end
 end
