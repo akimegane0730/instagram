@@ -2,8 +2,7 @@
   .header__title 
     Toristagram
   .header__box
-    %ul
-      %li
-        = link_to "投稿", "#", class: "post-btn"
-      %li
-        =icon('fas', 'user')
+    .header__box__post-btn
+      = link_to "投稿", "#" 
+    .header__box__icon
+      =icon('fas', 'user')

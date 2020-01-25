@@ -10,29 +10,30 @@
   position: relative;
 }
 .header__title {
-  margin: 0 auto; 
+  margin-left: 15vw; 
   line-height: 100px;
   font-size: 2.4rem;
   font-family: cursive;
   cursor: pointer;
-  // position: absolute;
 }
 
 .header__box {
-  display: flex;
-  line-height: 100px;
-  height: 30px; 
-}
-
-.header__box__post-btn {
+  position: absolute;
+  right: 18vw;
+  top: 25px;
   background-color: blue;
-  // width: 24px;
-  // height: 24px;
-  // line-height: 24px;
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+}
+.header__box a{
+  color: white;
+  line-height: 50px;
+  text-decoration: none;
+}
+.header__box:hover {
+  background-color: lightskyblue;
+  cursor: pointer;
 }
 
-.profile-icon {
-  background-image: image-url("techpitgram-images/parts3.png");
-  height: 20px;
-  width: 20px;
-}
