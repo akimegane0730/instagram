@@ -14,23 +14,17 @@
   // position: absolute;
 }
 
-.header__post-btn {
-  width: 7vw;
-  height: 5vh;
+.header__box {
+  display: flex;
+}
+
+.header__box__post-btn {
   background-color: blue;
-  line-height: 5vh;
-  text-align: center;
-  margin-right: 10vw;
-  margin-top: 3vh;
-  cursor: pointer;
-
+  // width: 24px;
+  // height: 24px;
+  line-height: 24px;
 }
 
-.header__post-btn a{
-  text-decoration: none;
-  color: white;
-}
-
-.header__post-btn:hover {
-  background-color: lightskyblue;
+.header__box__icon {
+  background-image: image-url("parts3.png");
 }
