@@ -3,6 +3,7 @@
   width: 100%;
   background: linear-gradient(-135deg, #E4A972, #9941D8);
   display: flex;
+  position: relative;
 }
 .header__title {
   margin: 0 auto; 
@@ -10,9 +11,26 @@
   font-size: 2.4rem;
   font-family: cursive;
   cursor: pointer;
+  // position: absolute;
 }
 
-i {
-  width: 50px;
-  height: 50px;
+.header__post-btn {
+  width: 7vw;
+  height: 5vh;
+  background-color: blue;
+  line-height: 5vh;
+  text-align: center;
+  margin-right: 10vw;
+  margin-top: 3vh;
+  cursor: pointer;
+
+}
+
+.header__post-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.header__post-btn:hover {
+  background-color: lightskyblue;
 }
