@@ -1,8 +1,9 @@
 .header
   .header__title 
-    Toristagram
+    = link_to "Toristagram", root_path, class: "header_title"
   .header__box
     .header__box__post-btn
       = link_to "投稿", "#" 
     .header__box__icon
-      = image_tag "parts3.png", size: "80×50"
+      -# = image_tag "parts3.png", size: "80×50"
+      =icon('fas', 'fa-user')
