@@ -15,28 +15,32 @@
   font-size: 2.4rem;
   font-family: cursive;
   cursor: pointer;
+  margin-right: 40vw;
 }
 .header__title a{
   text-decoration: none;
 }
 
 .header__box {
-  position: absolute;
-  right: 18vw;
-  top: 25px;
-  background-color: blue;
-  height: 50px;
-  width: 80px;
-  text-align: center;
-  border-radius: 10px;
+  display: flex;
 }
 .header__box a{
   color: white;
   line-height: 50px;
   text-decoration: none;
 }
-.header__box:hover {
-  background-color: lightskyblue;
-  cursor: pointer;
+
+.header__box__post-btn {
+  width: 80px;
+  background-color: blue;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 20px;
+  // line-height: 100px;
+  margin-top: 20px;
 }
 
+.header__box__icon {
+  margin-top: 8px;
+}
