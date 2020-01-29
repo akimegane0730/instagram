@@ -7,7 +7,7 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.new(post_params)
-    if @post = Post.photos.present?
+    if @post.photos.present?
       @post.save
       redirect_to root_path
       flash[:notice] = "投稿が保存されました"
@@ -16,6 +16,7 @@ class PostsController < ApplicationController
       flash[:alert] = "投稿に失敗しました"
     end
   end
+
 
 
   private
